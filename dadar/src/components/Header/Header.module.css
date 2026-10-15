@@ -1,15 +1,37 @@
 .header{
+    direction: rtl;
+    background: #fff;
 
+    font-size: 20px;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
-
 }
-.logoBox{border: 1px solid blue;}
+
+
+.logoBox{border: 1px solid blue;display: flex;}
+.logoBahr{width: 40px;}
+.bahr{width: 190px;}
+
 .menuBox{
     border: 1px solid red;
 
+    color: #272727;
     display: flex;
+    align-items: center;
     gap: 20px;
 
 }
 .btnBox{border: 1px solid green;}
+
+
+.loginBtn{
+    padding: 8px 24px;
+    border-radius: 64px;
+    background-color: #3772FF;
+    color: #fff;
+}
+.moonBtn{
+
+    background: url("file/moon.png");
+}
