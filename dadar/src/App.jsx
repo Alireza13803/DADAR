@@ -1,15 +1,7 @@
-
-import './App.css'
-import Header from './components/Header/Header'
-import Error404 from './page/Errors/Error404/Error404'
+import { RouterProvider } from "react-router-dom";
+import router from "./router";
 
 function App() {
-  
-  return (
-    <>
-      <Error404/>
-    </>
-  )
+  return <RouterProvider router={router}/>
 }
-
 export default App
