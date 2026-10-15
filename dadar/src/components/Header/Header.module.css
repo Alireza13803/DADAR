@@ -1,10 +1,13 @@
-.Header{
-
-}
-.Header > .logoBox{}
-.Header > .menuBox{
+.header{
 
     display: flex;
-    
+
 }
-.Header > .btnBox{}
+.logoBox{border: 1px solid blue;}
+.menuBox{
+
+    display: flex;
+    border: 1px solid red;
+
+}
+.btnBox{border: 1px solid green;}
