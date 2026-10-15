@@ -1,58 +1,39 @@
 .header{
     margin: 24px 60px;
-
-    direction: rtl;
-
-    font-size: 20px;
-    /* font-weight: 500; */
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-
-.logoBox{}
-
 .menuBox{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     color: #272727;
     display: flex;
     align-items: center;
     gap: 30px;
-
 }
 
 
 .btnBox{
-
     display: flex;
     align-items: center;
     gap: 8px;
 }
-
-
-
-
 .moonBtn{
-    width: 56px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 1px solid #E4E4E4;
     background: url("file/moon.png") no-repeat center;
     background-size: 24px;
-
 }
-
 .loginBtn{
     width: 178px;
-    height: 56px;
-
+    height: 50px;
     border-radius: 64px;
     background-color: #3772FF;
     color: #fff;
-
     display: flex;
     align-items: center;
     justify-content: center;
