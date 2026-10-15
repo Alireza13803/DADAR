@@ -1,13 +1,15 @@
 .header{
 
     display: flex;
+    justify-content: space-between;
 
 }
 .logoBox{border: 1px solid blue;}
 .menuBox{
+    border: 1px solid red;
 
     display: flex;
-    border: 1px solid red;
+    gap: 20px;
 
 }
 .btnBox{border: 1px solid green;}
