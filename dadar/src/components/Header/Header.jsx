@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './Header.module.css'
 import bahr from './file/bahr.png';
-import logoBahr from './file/logoBahr.png';
+import logo from './file/logo.png';
 
 
 const Header = () => {
   return (
     <div className={styles.header}>
         <div className={styles.logoBox}>
-            <img className={styles.logoBahr} src={logoBahr} alt="" />
+            <img className={styles.logo} src={logo} alt="" />
             <img className={styles.bahr} src={bahr} alt="" />
         </div>
         <div className={styles.menuBox}>
@@ -18,8 +18,8 @@ const Header = () => {
             <div>ارتباط باما</div>
         </div>
         <div className={styles.btnBox}>
-            <div className={styles.loginBtn}>ورود یا ثبت نام</div>
             <div className={styles.moonBtn}></div>
+            <div className={styles.loginBtn}>ورود یا ثبت نام</div>
         </div>
     </div>
   )

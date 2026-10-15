@@ -1,0 +1,49 @@
+.container {
+    min-height: 60vh;     
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+.box {
+    width: 300px;
+    font-size: 24px;
+    border-radius: 12px;
+    color: #3772FF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    justify-content: center;
+    gap: 40px; 
+  
+    position: relative;
+}
+.error404{
+    margin: 20px ;
+    font-size: 96px;
+}
+.homeBtn{
+    width: fit-content;
+    padding: 14px 24px;
+    background: #3772FF;
+    color: #FEFDFF;
+    border-radius: 65px;
+    
+}
+.rightObject{
+    width: 80px;
+    height: 80px;
+    background: url("file/rightObject.png") no-repeat center;
+    
+    position: absolute;
+    right: -120px;
+    bottom: 0;
+}
+.leftObject{
+    width: 80px;
+    height: 120px;
+    background: url("file/leftObject.png") no-repeat center;
+    
+    position: absolute;
+    left: -140px;
+    top: -20px;
+}
