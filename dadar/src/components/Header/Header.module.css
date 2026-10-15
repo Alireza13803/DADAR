@@ -2,5 +2,9 @@
 
 }
 .Header > .logoBox{}
-.Header > .menuBox{}
+.Header > .menuBox{
+
+    display: flex;
+    
+}
 .Header > .btnBox{}
