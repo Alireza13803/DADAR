@@ -18,21 +18,26 @@
     border-radius: 24px;
     background: #FF9090;
 }
-.productName{
-    font-size: 24px;
+.productName{font-size: 24px;}
+.productDetail{color: #787878;}
+.productTeacher, .productDate, .productCount{padding-right: 40px;}
+.productTeacher{background: url("file/teacher.png") no-repeat right;}
+.productDate{background: url("file/calendar.png") no-repeat right;}
+.productCount{background: url("file/students.png") no-repeat right;}
+
+.productPriceContent, .productPriceBox, .likeBox, .likeBtn, .dislikeBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.productDetail{
-    color: #787878;
+.productPriceBox{gap: 5px;}
+.toman{color: #3772FF;}
+.price{font-size: 24px;}
+.likeBox{gap: 15px;}
+.likeBtn, .dislikeBtn{gap: 8px;}
+.like ,.dislike{
+    width: 24px;
+    height: 24px;
 }
-.productTeacher{
-    padding-right: 40px;
-    background: url("file/teacher.png") no-repeat right;
-}
-.productDate{
-    padding-right: 40px;
-    background: url("file/calendar.png") no-repeat right;
-}
-.productCount{
-    padding-right: 40px;
-    background: url("file/students.png") no-repeat right;
-}
+.like{background: url("file/like.png");}
+.dislike{background: url("file/dislike.png");}

@@ -11,13 +11,22 @@ const ProductCard = () => {
             <p className={styles.productTeacher}>محسن اسفندیاری , مهدی اصغری</p>
             <p className={styles.productDate}>20 اردیبهشت 1403</p>
             <p className={styles.productCount}>80 دانشجو</p>
-            <p className={styles.productPriceContent}>
+            <div className={styles.productPriceContent}>
                 <div className={styles.productPriceBox}>
-                    <span>1,800,000</span>
-                    <span>تومان</span>
+                    <span className={styles.price}>1,800,000</span>
+                    <span className={styles.toman}>تومان</span>
                 </div>
-                <div></div>
-            </p>
+                <div className={styles.likeBox}>
+                    <div className={styles.likeBtn}>
+                        <div className={styles.like}></div>
+                        <span>22</span>
+                    </div>
+                    <div className={styles.dislikeBtn}>
+                        <div className={styles.dislike}></div>
+                        <span>1</span>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
