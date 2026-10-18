@@ -1,0 +1,41 @@
+.About {
+    font-family: iran1;
+  /* border: 1px solid red; */
+  width: 1320px;
+  margin: 40px auto;
+  direction: rtl;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+}
+.DedicatedStudentPanel {
+  border: 1px solid #ccc;
+  width: 538px;
+  height: 332px;
+  border-radius: 32px;
+  background-image: url("/images/Frame.png")  ;
+  background-size: 500px auto;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+
+}
+.StudentPanel{
+    margin: 5px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.StudentPanelP{
+    margin: 5px 20px;
+}
+.SummerCourse {
+  background: #3772ff;
+  width: 427px;
+  height: 332px;
+  border-radius: 32px;
+}
+.ReadMoreAboutUs {
+  border: 1px solid #ccc;
+  width: 315px;
+  height: 332px;
+  border-radius: 32px;
+}
