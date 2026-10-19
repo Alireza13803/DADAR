@@ -14,7 +14,8 @@
 }
 .DedicatedStudentPanel {
   border: 1px solid #ccc;
-  width: 538px;
+  width: 39%;
+  max-width: 538px;
   min-width: 345px;
   height: 332px;
   border-radius: 32px;
@@ -37,7 +38,7 @@
 }
 .SummerCourse {
  
-  min-width: 345px;
+  min-width: 372px;
   background: #3772ff url("/images/Group 143.png") no-repeat;
   background-size: 250px auto;
   background-position: left bottom;
