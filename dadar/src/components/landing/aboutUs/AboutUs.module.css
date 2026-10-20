@@ -9,7 +9,7 @@
   flex-flow: row wrap;
   gap: 15px;
 }
-.DedicatedStudentPanel:hover{
+.DedicatedStudentPanel:hover {
   box-shadow: 0px 0px 15px 0 #ccc;
 }
 .DedicatedStudentPanel {
@@ -33,12 +33,11 @@
 .StudentPanelP {
   margin: 5px 20px;
 }
-.SummerCourse:hover{
+.SummerCourse:hover {
   box-shadow: 0px 0px 15px 0 #3772ff;
 }
 .SummerCourse {
- 
-  min-width: 372px;
+  min-width: 345px;
   background: #3772ff url("/images/Group 143.png") no-repeat;
   background-size: 250px auto;
   background-position: left bottom;
@@ -56,7 +55,7 @@
 .SummerCourseTitle {
   margin: 15px 20px;
 }
-.SummerCourseTitleGoArrowUpLeft:hover{
+.SummerCourseTitleGoArrowUpLeft:hover {
   box-shadow: 0 0 10px 0 #ccc;
 }
 .SummerCourseTitleGoArrowUpLeft {
@@ -70,7 +69,7 @@
 .SummerCourseP {
   margin: 0 20px;
 }
-.ReadMoreAboutUs:hover{
+.ReadMoreAboutUs:hover {
   box-shadow: 0px 0px 15px 0 #ccc;
 }
 .ReadMoreAboutUs {
@@ -83,20 +82,69 @@
   border-radius: 32px;
   transition: box-shadow 0.3s ease;
 }
-.ReadMoreAboutUsTop{
+.ReadMoreAboutUsTop {
   display: flex;
   justify-content: space-between;
 }
-.ReadMoreAboutUsTopP{
-   margin: 10px 20px;
+.ReadMoreAboutUsTopP {
+  margin: 10px 20px;
 }
-.ReadMoreAboutUsGoArrowUpLeft:hover{
-  box-shadow: 0px 0px 10px 0 #3772FF;
+.ReadMoreAboutUsGoArrowUpLeft:hover {
+  box-shadow: 0px 0px 10px 0 #3772ff;
 }
 .ReadMoreAboutUsGoArrowUpLeft {
   margin: 15px;
-  background: #3772FF;
+  background: #3772ff;
   border-radius: 50%;
   padding: 10px;
-  transition: box-shadow 0.3s ease ;
+  transition: box-shadow 0.3s ease;
+}
+.Strip {
+  width: 1638px;
+  height: 64px;
+  background: #3772ff;
+  margin: 50px 0px;
+  transform: rotate(-3deg);
+  
+  top: 0px;
+  left: -70px;
+  white-space: nowrap;
+  color: white;
+}
+.StripTrack {
+  height: 100%;
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+
+.StripGroup {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 30px;
+  padding-left: 30px;
+}
+
+.StripItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  font-size: 20px;
+}
+
+.Dot {
+  font-size: 20px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
