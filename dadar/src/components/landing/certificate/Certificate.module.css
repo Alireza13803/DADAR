@@ -1,0 +1,26 @@
+.Certificate{
+    font-family: iran1;
+    margin: 10px auto;
+    direction: rtl;
+    width: 100%;
+    max-width: 1320px;
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid #ccc; */
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.Card{
+    width: 315px;
+    height: 332px;
+    border: 1px solid #ccc;
+    border-radius: 32px;
+    display: flex;
+    flex-flow: column;
+}
+.Number{
+    font-weight: 400;
+    font-size: 40px;
+    /* border: 1px solid red; */
+    margin: 0px 15px;
+}
