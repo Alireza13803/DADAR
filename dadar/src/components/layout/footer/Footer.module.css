@@ -1,0 +1,53 @@
+.Footer{
+    direction: rtl;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1320px;
+    /* height: 345px; */
+    margin: 113px auto 85px;
+    background: #E4E4E4;
+    border-radius: 32px;
+}
+.FooterGroup{
+    width: 95%;
+    height: 277px;
+    margin-bottom: 68px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 30px;
+}
+.Logos{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+.Logo{
+    width: 91px;
+    height: 102px;
+}
+.Instagram:hover{
+    box-shadow: 0px 0px 30px 0px #ccc;
+}
+.Instagram{
+    /* border: 1px solid red; */
+    background: url('/images/Frame 30.png') no-repeat;
+    background-size: cover;
+    width: 135px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border-radius: 64px;
+}
+.Telegram:hover{
+    box-shadow: 0px 0px 30px 0px #ccc;
+}
+.Telegram{
+    background: url('/images/Frame 31.png') no-repeat;
+    background-size: cover;
+    width: 104px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 64px;
+}
