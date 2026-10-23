@@ -18,10 +18,13 @@ const Header = () => {
             <img className={styles.bahr} src={bahr} alt="" />
         </div>
         <div className={styles.menuBox}>
-            <div>خانه</div>
-            <div>دوره ها</div>
-            <div>اخبار و مقالات</div>
-            <div>ارتباط باما</div>
+            {
+                menuState.map((item, index) => {
+                    return(
+                        <MenuLists key={index} pageName={item.name} pageRouter={item.pageRoute}/>
+                    )
+                })
+            }
         </div>
         <div className={styles.btnBox}>
             <div className={styles.moonBtn}></div>
