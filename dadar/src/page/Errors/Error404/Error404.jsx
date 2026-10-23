@@ -1,10 +1,8 @@
 import React from 'react'
-import Header from '../../../components/Header/Header'
 import styles from './Error404.module.css'
 const Error404 = () => {
   return (
     <>
-      <Header/>
 
       <div className={styles.container}>
         <div className={styles.box}>
