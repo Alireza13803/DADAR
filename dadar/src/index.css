@@ -1,8 +1,9 @@
 :root {
-  /* --text: #6b6375;
+  --border: #e5e4e7;
+/* 
+  --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
-  --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
   --accent-bg: rgba(170, 59, 255, 0.1);
@@ -58,12 +59,12 @@ body {
   width: 1440px;
   max-width: 100%;
   margin: 0 auto;
-  /* text-align: center;
+  text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 /* h1,
