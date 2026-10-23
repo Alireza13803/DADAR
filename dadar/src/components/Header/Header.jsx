@@ -5,6 +5,12 @@ import logo from './file/logo.png';
 
 
 const Header = () => {
+    const   [menuState, setmenuState] = useState([
+        {id: 1, name: "خانه", pageRoute: "/"},
+        {id: 2, name: "دوره ها", pageRoute: "/blog"},
+        {id: 3, name: "اخبار و مقالات", pageRoute: "/careers"},
+        {id: 4, name: "ارتباط باما", pageRoute: "/courses"}
+    ])
   return (
     <div className={styles.header}>
         <div className={styles.logoBox}>
