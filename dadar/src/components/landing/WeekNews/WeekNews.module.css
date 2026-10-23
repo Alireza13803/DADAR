@@ -1,0 +1,20 @@
+.weekNews{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.weekNewsTitle{
+    font-size: 40px;
+    color: #272727;
+}
+.weekNewsDetail{
+    font-size: 20px;
+    color: #787878;
+}
+.newsBox{
+    margin: 0 auto;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
