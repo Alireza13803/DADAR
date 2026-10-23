@@ -9,6 +9,6 @@ const router = createBrowserRouter([
     {path: '/', element:<Landing/>},
     {path: '/courses', element:<Courses/>},
     {path: '/news', element:<News/>},
-    {path: '/contact-us', element:<ContactUs/>},
+    {path: '/contact-us', element:<ContactUs/>}
 ])
 export default router;
