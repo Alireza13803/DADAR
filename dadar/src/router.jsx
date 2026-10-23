@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Error404 from "./page/Errors/Error404/Error404";
-import Home from "./page/Home/Home";
+import Landing from "./page/Landing/Landing";
 const router = createBrowserRouter([
     {path: "*", element: <Error404 /> },
-    {path: '/', element:<Home/>}
+    {path: '/', element:<Landing/>}
 ])
 export default router;

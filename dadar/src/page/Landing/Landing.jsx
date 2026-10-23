@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react'
 import AboutUs from "../../components/landing/aboutUs/AboutUs";
 import Certificate from "../../components/landing/certificate/Certificate";
 
-const Home = () => {
+const Landing = () => {
   return (
     <div>
       <AboutUs />
       <Certificate />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Landing
