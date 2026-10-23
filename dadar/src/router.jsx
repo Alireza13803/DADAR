@@ -7,7 +7,7 @@ import ContactUs from "./page/ContactUs/ContactUs";
 import News from "./page/News/News";
 
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/layout/footer/Footer";
 // import AccountHeader from "./components/Header/AccountHeader";
 const MainLayout = () => (
   <>
