@@ -16,7 +16,8 @@ const WeekNews = () => {
                     })
                 }
             </div>
-        </div>  )
+        </div>  
+    )
 }
 
 export default WeekNews
