@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from './Header.module.css'
 import bahr from './file/bahr.png';
 import logo from './file/logo.png';
+import HeaderMenuList from './HeaderMenuList';
 
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
             {
                 menuState.map((item, index) => {
                     return(
-                        <MenuLists key={index} pageName={item.name} pageRouter={item.pageRoute}/>
+                        <HeaderMenuList key={index} pageName={item.name} pageRouter={item.pageRoute}/>
                     )
                 })
             }
