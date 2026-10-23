@@ -13,7 +13,10 @@
     align-items: center;
     gap: 30px;
 }
-
+.menuBox a{
+    color: inherit;
+    text-decoration: none;
+}
 
 .btnBox{
     display: flex;
