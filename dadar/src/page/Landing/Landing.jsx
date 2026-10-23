@@ -8,6 +8,7 @@ const Landing = () => {
     <div>
       <AboutUs />
       <Certificate />
+      
       <WeekNews/>
     </div>
   )
