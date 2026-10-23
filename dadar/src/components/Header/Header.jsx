@@ -1,15 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from './Header.module.css'
 import bahr from './file/bahr.png';
 import logo from './file/logo.png';
+import HeaderMenuList from './HeaderMenuList';
 
 
 const Header = () => {
     const   [menuState, setmenuState] = useState([
         {id: 1, name: "خانه", pageRoute: "/"},
-        {id: 2, name: "دوره ها", pageRoute: "/blog"},
-        {id: 3, name: "اخبار و مقالات", pageRoute: "/careers"},
-        {id: 4, name: "ارتباط باما", pageRoute: "/courses"}
+        {id: 2, name: "دوره ها", pageRoute: "/coursesg"},
+        {id: 3, name: "اخبار و مقالات", pageRoute: "/news"},
+        {id: 4, name: "ارتباط باما", pageRoute: "/contact-us"}
     ])
   return (
     <div className={styles.header}>
@@ -21,7 +22,7 @@ const Header = () => {
             {
                 menuState.map((item, index) => {
                     return(
-                        <MenuLists key={index} pageName={item.name} pageRouter={item.pageRoute}/>
+                        <HeaderMenuList key={index} pageName={item.name} pageRouter={item.pageRoute}/>
                     )
                 })
             }
