@@ -1,0 +1,20 @@
+.mostCourses{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.mostCoursesTitle{
+    font-size: 40px;
+    color: #272727;
+}
+.mostCoursesDetail{
+    font-size: 20px;
+    color: #787878;
+}
+.productBox{
+    margin: 0 auto;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
